@@ -1,0 +1,13 @@
+<?php
+
+for ($i = 1; $i < 101; $i++) {
+    if ($i == 3) {
+        echo $i . " Fintegra <br>";
+    } else if ($i == 5) {
+        echo $i . " Homido Indonesia <br>";
+    } else if ($i == 15) {
+        echo $i . " Fintegra Homido Indonesia <br>";
+    } else {
+        echo $i . "<br>";
+    }
+}
